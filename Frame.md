@@ -13,10 +13,10 @@
     * 지구 표면을 여러 지역으로 나눈다.
     * 동서 방향 : 60개 zone (숫자)
     * 남북 : 24개 zone (알파벳)
-₩₩₩python
+```python
 (easting, northing, zone_number, zone_letter) = utm.from_latlon(latitude, longitude)
 (latitude, longitude) = utm.to_latlon(easting, northing, zone_number, zone_letter)
-₩₩₩₩
+```
 
 ## Body Frame
 ## Euler Frame
